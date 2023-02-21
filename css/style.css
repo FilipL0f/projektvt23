@@ -1,1 +1,22 @@
 /* Denna fil skall innehålla din CSS kod */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(10deg, rgb(62, 62, 62), #1e1e1e);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logga {
+    width: 15vh;
+    height: 15vh;
+
+}
