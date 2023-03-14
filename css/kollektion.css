@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    background-color: #0b0a0a;
+    
+}
+
+#Header {
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logga {
+    width: 15vh;
+    height: 15vh;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.logga {
+    width: 15rem;
+    height: 15rem;
+}
+
+.navbar-item {
+    margin: 0 10px;
+}
+
+div ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "s1 s1 s1"
+    "s2 s2 s2"
+    "s3 s3 s3"
+    "s4 s4 s4";
+    grid-template-rows: 200px 600px 300px 200px;
+}
+
+#sec1 {
+    grid-area: s1;
+    border: 1px solid #fff;
+    margin: 20px;
+
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 5px 1px 2px rgb(16, 13, 13);
+
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background-image: url(../img/KollektionSec1Header.png);
+}
+
+#sec2 {
+    grid-area: s2;
+    border: 1px solid #fff;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    padding-top: 20px;
+}
+
+#sec2 section {
+    width: 50vh;
+    height: 35vh;
+    background-color: rgb(96, 96, 255);
+    margin: 20px;
+}
+
+#sec3 {
+    grid-area: s3;
+    border: 1px solid #fff;
+    margin: 20px;
+}
+
+#sec4 {
+    grid-area: s4;    
+    border: 1px solid #fff;
+    margin: 20px;
+}
