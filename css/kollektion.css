@@ -79,7 +79,7 @@ div ul li {
 
 #sec2 {
     grid-area: s2;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     margin: 20px;
 
     display: flex;
@@ -90,9 +90,15 @@ div ul li {
 
 #sec2 section {
     width: 50vh;
-    height: 35vh;
-    background-color: rgb(96, 96, 255);
+    height: 58vh;
     margin: 20px;
+    border: 1px solid #52d9ff;
+}
+
+#child1 {
+    background-image: url(../img/Rolex.png);
+    background-position: center;
+    background-size: cover;
 }
 
 #sec3 {
@@ -105,4 +111,16 @@ div ul li {
     grid-area: s4;    
     border: 1px solid #fff;
     margin: 20px;
+}
+
+#child2 {
+    background-image: url(../img/klocka\ 2\ kollektion.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#child3 {
+    background-image: url(../img/klocka\ 3\ kollektion.png);
+    background-position: center;
+    background-size: cover;
 }
