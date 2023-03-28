@@ -12,3 +12,330 @@
     text-decoration: none;
     background-color: #0b0a0a;
 }
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+#sections {
+    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: 
+    "s1 s1 s2"
+    "s3 s4 s2"
+    "s5 s6 s7"
+    "s8 s8 s8"
+    "s9 s10 s11"
+    "s12 s13 s14"
+    "s15 s15 s15";
+    
+    
+    width: 85%;
+    height: 200vh;
+    margin: 30px;
+}
+
+
+
+/* navbar */
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logga {
+    width: 15vh;
+    height: 15vh;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.logga {
+    width: 15rem;
+    height: 15rem;
+}
+
+.navbar-item {
+    margin: 0 10px;
+}
+
+div ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+
+
+/* Sektion 1 */
+
+
+
+#sektion1 {
+    grid-area: s1;
+    border: 2px solid #fff;
+    margin-left: 50px;
+
+    background-image: url(../img/ShoppaBild1.png);
+    background-position: center;
+    background-size: cover;
+
+    color: #130e0e;
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 5px 1px 2px rgb(239, 237, 237);
+    padding: 15px;
+}
+
+
+
+/* Sektion 2 */
+
+
+
+#sektion2 {
+    grid-area: s2;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 100px;
+}
+
+
+
+/* Sektion 3 */
+
+
+
+#sektion3 {
+    grid-area: s3;
+    color: #0f0e0e;
+    border: 2px solid #fff;
+    margin-left: 50px;
+    margin-top: 100px;
+
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 5px 1px 2px rgb(239, 237, 237);
+    padding: 15px;
+
+    background-image: url(../img/ShoppaBild2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* Sektion 4 */
+
+
+
+#sektion4 {
+    grid-area: s4;
+    color: #0b0a0a;
+    border: 2px solid #fff;
+    margin-top: 100px;
+    margin-left: 50px;
+
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 5px 1px 2px rgb(246, 242, 242);
+    padding: 15px;
+
+    background-image: url(../img/ShoppaBild3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* Sektion 5 */
+
+
+
+#sektion5 {
+    grid-area: s5;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+
+
+/* Sektion 6 */
+
+
+
+#sektion6 {
+    grid-area: s6;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+
+
+/* Sektion 7 */
+
+
+
+#sektion7 {
+    grid-area: s7;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+
+
+/* Sektion 8 */
+
+
+
+#sektion8 {
+    grid-area: s8;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+
+/* Sektion 9 */
+
+
+
+#sektion9 {
+    grid-area: s9;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+
+
+/* Sektion 10 */
+
+
+
+#sektion10 {
+    grid-area: s10;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+
+
+/* Sektion 11 */
+
+
+
+#sektion11 {
+    grid-area: s11;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+
+
+/* Sektion 12 */
+
+
+
+#sektion12 {
+    grid-area: s12;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h1 {
+    padding: 30px;
+}
+
+h2 {
+    padding: 30px;
+    padding-top: 20px;
+}
+
+span {
+    color: aqua;
+}
+
+
+
+/* Sektion 13 */
+
+
+
+#sektion13 {
+    grid-area: s13;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+
+/* Sektion 14 */
+
+
+
+#sektion14 {
+    grid-area: s14;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+
+/* Section 15 / footer */
+
+
+
+#sektion15 {
+    grid-area: s15;    
+    border: 1px solid #fff;
+    margin: 20px;
+    
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 5px 1px 2px rgb(16, 13, 13);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+
+    background-image: url(../img/Startsida-Footer.png);
+    background-position: center;
+    background-size: cover;
+}
