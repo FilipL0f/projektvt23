@@ -28,6 +28,7 @@
     "s5 s6 s7"
     "s8 s8 s8"
     "s9 s10 s11"
+    "s9 s10 s11"
     "s12 s13 s14"
     "s15 s15 s15";
     
@@ -170,10 +171,19 @@ div ul li {
 
 #sektion5 {
     grid-area: s5;
-    color: #fff;
+    color: #040303;
     border: 2px solid #fff;
     margin-top: 150px;
     margin-left: 50px;
+
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 5px 1px 2px rgb(246, 242, 242);
+    padding: 15px;
+
+    background-image: url(../img/ShoppaBild4.png);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -184,10 +194,19 @@ div ul li {
 
 #sektion6 {
     grid-area: s6;
-    color: #fff;
+    color: #030202;
     border: 2px solid #fff;
     margin-top: 150px;
     margin-left: 50px;
+
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 5px 1px 2px rgb(246, 242, 242);
+    padding: 15px;
+
+    background-image: url(../img/ShoppaBild5.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -198,10 +217,19 @@ div ul li {
 
 #sektion7 {
     grid-area: s7;
-    color: #fff;
+    color: #141010;
     border: 2px solid #fff;
     margin-top: 150px;
     margin-left: 50px;
+
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 5px 1px 2px rgb(246, 242, 242);
+    padding: 15px;
+
+    background-image: url(../img/ShoppaBild6.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -216,6 +244,20 @@ div ul li {
     border: 2px solid #fff;
     margin-top: 50px;
     margin-left: 50px;
+    padding: 25px;
+
+
+    font-size: 25px;
+    font-weight: bolder;
+
+    display:flex;
+    justify-content: center; 
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+p {
+    padding-right: 20px;
 }
 
 
@@ -226,10 +268,19 @@ div ul li {
 
 #sektion9 {
     grid-area: s9;
-    color: #fff;
+    color: #131010;
     border: 2px solid #fff;
     margin-left: 50px;
     margin-top: 150px;
+
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 5px 1px 2px rgb(239, 237, 237);
+    padding: 15px;
+
+    background-image: url(../img/ShoppaBild7.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -240,10 +291,19 @@ div ul li {
 
 #sektion10 {
     grid-area: s10;
-    color: #fff;
+    color: #0c0808;
     border: 2px solid #fff;
     margin-left: 50px;
     margin-top: 150px;
+
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 5px 1px 2px rgb(239, 237, 237);
+    padding: 15px;
+
+    background-image: url(../img/ShoppaBild8.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -254,10 +314,19 @@ div ul li {
 
 #sektion11 {
     grid-area: s11;
-    color: #fff;
+    color: #0c0909;
     border: 2px solid #fff;
     margin-left: 50px;
     margin-top: 150px;
+
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 5px 1px 2px rgb(239, 237, 237);
+    padding: 15px;
+
+    background-image: url(../img/Rolex.png);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -272,6 +341,14 @@ div ul li {
     border: 2px solid #fff;
     margin-left: 50px;
     margin-top: 50px;
+
+    padding: 25px;
+    padding-top: 25px;
+
+    font-weight: bolder;
+
+    display: flex; 
+    justify-content: center;
 }
 
 h1 {
@@ -299,6 +376,14 @@ span {
     border: 2px solid #fff;
     margin-left: 50px;
     margin-top: 50px;
+
+    padding: 25px;
+    padding-top: 25px;
+
+    font-weight: bolder;
+
+    display: flex; 
+    justify-content: center;
 }
 
 
@@ -313,6 +398,14 @@ span {
     border: 2px solid #fff;
     margin-left: 50px;
     margin-top: 50px;
+
+    padding: 25px;
+    padding-top: 25px;
+
+    font-weight: bolder;
+
+    display: flex; 
+    justify-content: center;
 }
 
 
