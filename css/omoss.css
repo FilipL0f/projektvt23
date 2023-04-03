@@ -1,0 +1,158 @@
+
+
+
+/* General */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    background-color: #0b0a0a;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+#sections {
+    display: grid;
+    grid-template-areas: 
+    "s1 s1"
+    "s2 s3"
+    "s2 s4"
+    "s5 s5";
+}
+
+
+
+/* navbar */
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logga {
+    width: 15vh;
+    height: 15vh;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.logga {
+    width: 15rem;
+    height: 15rem;
+}
+
+.navbar-item {
+    margin: 0 10px;
+}
+
+div ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+
+
+/* Section 1 */
+
+
+
+#sektion1 {
+    grid-area: s1;
+    border: 2px solid #8e8e8e;
+    height: 200px;
+
+    background-image: url(../img/ShoppaBild3.png);
+    background-position: center;
+    background-size: cover;
+
+
+    display: flex;
+    justify-content: center;
+    padding-top: 40px; 
+
+    color: #fbfbfb;
+    font-weight: bolder;
+    font-size: 65px;
+    text-shadow: 5px 1px 2px rgb(10, 8, 8);
+}
+
+
+
+/* Section 2 */
+
+
+
+#sektion2 {
+    grid-area: s2;
+    border: 2px solid #8e8e8e;
+
+    margin-left: 75px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+/* Section 3 */
+
+
+
+#sektion3 {
+    grid-area: s3;
+    border: 2px solid #8e8e8e;
+
+    margin-left: 75px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+/* Section 4 */
+
+
+
+#sektion4 {
+    grid-area: s4;
+    border: 2px solid #8e8e8e;
+
+    margin-left: 75px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+/* Section 5 */
+
+
+
+#sektion5 {
+    grid-area: s5;
+    border: 2px solid #8e8e8e;
+
+    margin-left: 75px;
+    height: 200px;
+    width: 200px;
+}
