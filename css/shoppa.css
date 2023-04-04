@@ -1,7 +1,7 @@
 
 
 
-/* General */
+/* General - Dator */
 
 
 
@@ -40,7 +40,7 @@
 
 
 
-/* navbar */
+/* navbar - Dator */
 
 
 
@@ -84,7 +84,7 @@ div ul li {
 
 
 
-/* Sektion 1 */
+/* Sektion 1 - Dator */
 
 
 
@@ -106,7 +106,7 @@ div ul li {
 
 
 
-/* Sektion 2 */
+/* Sektion 2 - Dator */
 
 
 
@@ -119,7 +119,7 @@ div ul li {
 
 
 
-/* Sektion 3 */
+/* Sektion 3 - Dator */
 
 
 
@@ -142,7 +142,7 @@ div ul li {
 
 
 
-/* Sektion 4 */
+/* Sektion 4 - Dator */
 
 
 
@@ -165,7 +165,7 @@ div ul li {
 
 
 
-/* Sektion 5 */
+/* Sektion 5 - Dator */
 
 
 
@@ -188,7 +188,7 @@ div ul li {
 
 
 
-/* Sektion 6 */
+/* Sektion 6 - Dator */
 
 
 
@@ -211,7 +211,7 @@ div ul li {
 
 
 
-/* Sektion 7 */
+/* Sektion 7 - Dator */
 
 
 
@@ -234,7 +234,7 @@ div ul li {
 
 
 
-/* Sektion 8 */
+/* Sektion 8  Dator */
 
 
 
@@ -262,7 +262,7 @@ p {
 
 
 
-/* Sektion 9 */
+/* Sektion 9 - Dator */
 
 
 
@@ -285,7 +285,7 @@ p {
 
 
 
-/* Sektion 10 */
+/* Sektion 10 - Dator */
 
 
 
@@ -308,7 +308,7 @@ p {
 
 
 
-/* Sektion 11 */
+/* Sektion 11 - Dator */
 
 
 
@@ -331,7 +331,7 @@ p {
 
 
 
-/* Sektion 12 */
+/* Sektion 12 - Dator */
 
 
 
@@ -366,7 +366,7 @@ span {
 
 
 
-/* Sektion 13 */
+/* Sektion 13 - Dator */
 
 
 
@@ -388,7 +388,7 @@ span {
 
 
 
-/* Sektion 14 */
+/* Sektion 14 - Dator */
 
 
 
@@ -410,7 +410,7 @@ span {
 
 
 
-/* Section 15 / footer */
+/* Section 15 / footer - Dator */
 
 
 
@@ -441,6 +441,163 @@ span {
 
 @media (max-width: 600px) {
 
-    
 
-  }
+
+    /* Navbar Mobil - Mobil */
+
+
+
+.logga {
+   width:  18vh;
+   height: 18vh;
+   margin-right: 45px;
+}
+
+.navbar {
+    margin-top: 30px;
+}
+
+
+
+/* Main Content - Mobil */
+
+
+
+#sections {
+    display: none;
+}
+
+#MobilSektioner {
+    display: grid;
+    grid-template-areas:
+    "sek2"
+    "sek3"
+    "sek4"
+    "sek5"
+    "sek6"
+    "sek7"
+    "sek8"
+    "sek9";
+}
+
+#sektion2mobil {
+    grid-area: sek2;
+
+    background-image: url(../img/ShoppaBild3.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    height: 200px;
+    width: 320px;
+    margin-left: 33px;
+    margin-top: 40px;
+
+    border: 1px solid #fff;
+}
+
+#sektion4mobil {
+    grid-area: sek4;
+
+    height: 200px;
+    width: 320px;
+    margin-left: 33px;
+    margin-top: 40px;
+
+    border: 1px solid #fff;
+
+    background-image: url(../img/ShoppaBild2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#sektion6mobil {
+    grid-area: sek6;
+
+    height: 200px;
+    width: 320px;
+    margin-left: 33px;
+    margin-top: 40px;
+
+    border: 1px solid #fff;
+
+    background-image: url(../img/ShoppaBild4.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#sektion8mobil {
+    grid-area: sek8;
+
+    height: 200px;
+    width: 320px;
+    margin-left: 33px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    border: 1px solid #fff;
+
+    background-image: url(../img/ShoppaBild6.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#sektion3mobil {
+    grid-area: sek3;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#sektion5mobil {
+    grid-area: sek5;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#sektion7mobil {
+    grid-area: sek7;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#sektion9mobil {
+    grid-area: sek9;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+}
+

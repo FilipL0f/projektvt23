@@ -1,7 +1,7 @@
 
 
 
-/* General */
+/* General - Dator */
 
 
 
@@ -26,7 +26,7 @@
 }
 
 
-/* Navbar */
+/* Navbar - Dator */
 
 
 
@@ -68,7 +68,7 @@ div ul li {
 
 
 
-/* Section 1 */
+/* Section 1 - Dator */
 
 
 
@@ -90,7 +90,7 @@ div ul li {
 
 
 
-/* Section 2 */
+/* Section 2 - Dator */
 
 
 
@@ -132,7 +132,7 @@ div ul li {
 
 
 
-/* Section 3 */
+/* Section 3 - Dator */
 
 
 
@@ -182,7 +182,7 @@ h2{
 
 
 
-/* Section 4 / footer */
+/* Section 4 / footer - Dator */
 
 
 
@@ -216,4 +216,49 @@ h2{
 
 
 
-  }
+    /* Navbar Mobil - Mobil */
+
+
+
+.logga {
+   width:  18vh;
+   height: 18vh;
+   margin-right: 45px;
+}
+
+.navbar {
+    margin-top: 30px;
+}
+
+
+
+/* Section 1 - Mobil */
+
+
+
+#sec1 {
+    width: 320px;
+    font-size: 25px;
+    padding: 20px;
+}
+
+#sec2 {
+    width: 360px;
+}
+
+#sec3 {
+    width: 360px;
+    height: 200px;
+    border: none;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+#sec4 {
+    display: none;
+}
+
+}
+
