@@ -113,7 +113,7 @@ div ul li {
 }
 
 #child1 {
-    background-image: url(../img/Rolex.png);
+    background-image: url(../img/Rolex.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -125,7 +125,7 @@ div ul li {
 }
 
 #child3 {
-    background-image: url(../img/klocka\ 3\ kollektion.png);
+    background-image: url(../img/klocka\ 3\ kollektion.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -201,7 +201,20 @@ h2{
     padding-top: 50px;
     font-family:'Times New Roman', Times, serif;
 
-    background-image: url(../img/Startsida-Footer.png);
+    background-image: url(../img/Startsida-Footer.jpg);
     background-position: center;
     background-size: cover;
 }
+
+
+
+/* Media queries */
+
+
+
+@media (max-width: 600px) {
+    /* Styles for screens 600px or less */
+
+    
+
+  }

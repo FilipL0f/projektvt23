@@ -10,12 +10,7 @@
     margin: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    background-color: #0b0a0a;
-}
-
-.container {
-    height: 100vh;
-    width: 100%;
+    background-color: #000000;
 }
 
 #sections {
@@ -82,7 +77,7 @@ div ul li {
     border: 2px solid #8e8e8e;
     height: 200px;
 
-    background-image: url(../img/ShoppaBild3.png);
+    background-image: url(../img/ShoppaBild3.jpg);
     background-position: center;
     background-size: cover;
 
@@ -107,9 +102,19 @@ div ul li {
     grid-area: s2;
     border: 2px solid #8e8e8e;
 
+    color:aqua;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+
+    padding: 10px;
+
     margin-left: 75px;
-    height: 200px;
-    width: 200px;
+    margin-top: 100px; 
+    margin-bottom: 100px;
+
+    height: 400px;
+    width: 500px;
 }
 
 
@@ -123,8 +128,15 @@ div ul li {
     border: 2px solid #8e8e8e;
 
     margin-left: 75px;
+    margin-top: 100px; 
+    margin-bottom: 100px;
+    
     height: 200px;
-    width: 200px;
+    width: 500px;
+
+    background-image: url(../img/ShoppaBild1.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -135,24 +147,37 @@ div ul li {
 
 #sektion4 {
     grid-area: s4;
-    border: 2px solid #8e8e8e;
+    border: 2px solid #090505;
 
     margin-left: 75px;
     height: 200px;
     width: 200px;
+
+    background-image: url(../img/divine-logga.png);
+    background-position: center;
+    background-size: cover;
+
 }
 
 
 
-/* Section 5 */
+/* Section 5 / Footer */
 
 
 
 #sektion5 {
     grid-area: s5;
-    border: 2px solid #8e8e8e;
 
-    margin-left: 75px;
-    height: 200px;
-    width: 200px;
+    background-image: url(../img/Startsida-Footer.jpg);
+    background-position: center;
+    background-size: cover;
+
+    height: 150px;
+    width: 100%;
 }
+
+
+
+/* Media queries */
+
+

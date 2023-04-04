@@ -93,7 +93,7 @@ div ul li {
     border: 2px solid #fff;
     margin-left: 50px;
 
-    background-image: url(../img/ShoppaBild1.png);
+    background-image: url(../img/ShoppaBild1.jpg);
     background-position: center;
     background-size: cover;
 
@@ -135,7 +135,7 @@ div ul li {
     text-shadow: 5px 1px 2px rgb(239, 237, 237);
     padding: 15px;
 
-    background-image: url(../img/ShoppaBild2.png);
+    background-image: url(../img/ShoppaBild2.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -158,7 +158,7 @@ div ul li {
     text-shadow: 5px 1px 2px rgb(246, 242, 242);
     padding: 15px;
 
-    background-image: url(../img/ShoppaBild3.png);
+    background-image: url(../img/ShoppaBild3.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -181,7 +181,7 @@ div ul li {
     text-shadow: 5px 1px 2px rgb(246, 242, 242);
     padding: 15px;
 
-    background-image: url(../img/ShoppaBild4.png);
+    background-image: url(../img/ShoppaBild4.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -324,7 +324,7 @@ p {
     text-shadow: 5px 1px 2px rgb(239, 237, 237);
     padding: 15px;
 
-    background-image: url(../img/Rolex.png);
+    background-image: url(../img/Rolex.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -428,7 +428,14 @@ span {
     position: relative;
     font-family:'Times New Roman', Times, serif;
 
-    background-image: url(../img/Startsida-Footer.png);
+    background-image: url(../img/Startsida-Footer.jpg);
     background-position: center;
     background-size: cover;
 }
+
+
+
+/* Media queries */
+
+
+
